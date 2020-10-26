@@ -1,0 +1,9 @@
+#barra {
+    height: 25px;
+    width: 1px;
+    background-color: rgb(187, 208, 224);
+}
+
+#barra-superior p, #barra-superior #barra {
+    display: inline-block;
+}
