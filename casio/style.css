@@ -1,9 +1,14 @@
 #barra {
     height: 25px;
     width: 1px;
-    background-color: rgb(187, 208, 224);
+    background-color: rgb(195, 212, 224);
 }
 
-#barra-superior p, #barra-superior #barra {
+#barra-superior  li {
     display: inline-block;
+    vertical-align: middle;
+}
+
+#barra-superior {
+    padding: 0 20%;
 }
