@@ -120,14 +120,16 @@ nav ul li:hover {
 }
 
 .linha {
-    padding: 0 7%;
+    padding: 0 0 25px 0;
+    padding: 0 7% 25px 7%;
     background: rgb(233, 232, 232);
+    margin: 0 0 85px 0;
 }
 
 .linha h1 {
     margin: 0 7px ;
     font-weight: bolder;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 7px ;
 }
@@ -138,7 +140,8 @@ nav ul li:hover {
     font-weight: lighter;
     font-size: 20px;
     font-weight: bold;
-    margin: 0 7px ;
+    margin: 0 10px ;
+    padding: 50px 0 0 0;
 }
 
 .linha .linha-line {
@@ -155,7 +158,7 @@ nav ul li:hover {
     vertical-align: top;
 }
 
-.big-box .big-box-line {
+.big-box .big-box-line, .mini-box .big-box-line {
     width: 100%;
     height: 0.4px;
     background: rgb(206, 206, 206);
@@ -186,6 +189,10 @@ nav ul li:hover {
     margin: 10px;
 }
 
+.mini-boxes {
+    margin: 0 0 40px 0
+}
+
 .mini-box {
     display: inline-block;
     margin: 7px 1%;
@@ -198,3 +205,33 @@ nav ul li:hover {
     display: inline-block;
     width: 100%;
 }
+
+.red-line {
+    height: 3px;
+    width: 100%;
+    background: rgb(143, 28, 28);
+}
+
+.new-product {
+    width: 94px;
+    background: rgb(143, 28, 28);
+    color: white;
+    margin: 0 0 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 0 3px;
+}
+
+p {
+    margin: 0;
+}
+
+/* .pagina-data .pagina {
+
+} */
+/* 
+.data{
+    height: 150px;
+    display: inline-block;
+    text-align: right;
+} */
